@@ -1,5 +1,7 @@
 import { useState } from "react";
 import AppointmentBtn from "../btns/appointment-btn";
+import { FiPhoneCall } from 'react-icons/fi';
+
 
 const Navbar = (props) => {
     const { scrollToHeader, scrollToAbout, scrollToAppointment, scrollToDiseases, scrollToReview, scrollToContact } = props;
@@ -31,15 +33,15 @@ const Navbar = (props) => {
 
 
     return (
-        <nav className="bg-white sticky left-0 top-0 z-50">
-            <div className="max-w-screen-xl mx-auto  px-7 md:px-16 py-5 flex items-center justify-between">
+        <nav className="bg-white sticky left-0 top-0 z-50 shadow-md">
+            <div className="max-w-screen-xl mx-auto px-5 md:px-0 py-5 flex items-center justify-between">
                 {/* Logo */}
                 <div className=" text-blue-500 font-bold text-2xl">Doctor ACI</div>
 
                 {/* Mobile Nav */}
                 <div className="lg:hidden">
                     <button
-                        className="text-white bg-rose-400 py-2 px-4 rounded-xl drop-shadow-md border text-xl"
+                        className="text-white bg-blue-400 py-2 px-4 rounded-lg drop-shadow-md border text-xl"
                         onClick={toggleMobileNav}
                     >
                         ☰
@@ -47,7 +49,7 @@ const Navbar = (props) => {
                 </div>
 
                 {/* Nav Links (Desktop) */}
-                <div className="hidden lg:flex gap-10">
+                <div className="hidden lg:flex lg:gap-10">
                     <button onClick={scrollToHeader} className="text-indigo-400 font-bold">
                         Home
                     </button>
@@ -63,9 +65,10 @@ const Navbar = (props) => {
                     <button onClick={scrollToReview} className="text-indigo-400 font-bold">
                         Blog
                     </button>
-                    <button>
-                        
-                    </button>
+                    <div className="flex items-center gap-5 text-indigo-400 font-bold">
+                        <p className="bg-indigo-100 p-2 rounded"><FiPhoneCall className="text-xl" /></p>
+                        <p className="text-xl font-bold text-indigo-800">(+01) 999 800 777</p>
+                    </div>
                 </div>
 
                 <div className="hidden lg:flex space-x-4">
