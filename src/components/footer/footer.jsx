@@ -1,3 +1,6 @@
+import { GrSend } from 'react-icons/gr';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+
 const Footer = () => {
     return (
         <footer className="bg-slate-50 py-14 md:py-20">
@@ -44,13 +47,24 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
-                        <h2 className="text-xl font-semibold">Newsletter</h2>
+                        <div>
+                            <h2 className="text-xl font-semibold">Newsletter</h2>
                         <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
-                        <ul>
-                            <li className="mb-2">Link 10</li>
-                            <li className="mb-2">Link 11</li>
-                            <li className="mb-2">Link 12</li>
-                        </ul>
+                            <div className="relative">
+                                <input type="email" className="border-b focus:border-indigo-400 focus:outline-none mt-5 pb-2 bg-slate-50 w-full" placeholder="Email Address" />
+                                <button className="absolute right-2 bottom-3"><GrSend /></button>
+                            </div>
+                        </div>
+                        <div className="mt-10">
+                            <h2 className="text-xl font-semibold">Follow Us</h2>
+                            <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
+                            <div className="flex items-center gap-4 mt-7">
+                                <button><FaFacebookF className="text-slate-400 hover:text-indigo-400" /></button>
+                                <button><FaTwitter className="text-slate-400 hover:text-indigo-400" /></button>
+                                <button><FaInstagram className="text-slate-400 hover:text-indigo-400" /></button>
+                                <button><FaLinkedinIn className="text-slate-400 hover:text-indigo-400" /></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
