@@ -3,10 +3,10 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-50 py-14 md:py-20">
-            <div className="max-w-screen-xl mx-auto">
+        <footer className="bg-slate-50">
+            <div className="max-w-screen-xl mx-auto px-5 md:px-0 pt-24 pb-14">
                 <div className="container mx-auto flex flex-wrap justify-between">
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
+                    <div className="w-full sm:w-1/2 md:w-1/4 pr:0 md:pr-4 mb-8">
                         <div className="mb-6">
                             <h2 className="text-3xl font-bold">Doctor ACI</h2>
                             <p className="uppercase text-md tracking-widest	">Physiologist</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
+                    <div className="w-full sm:w-1/2 md:w-1/4 pr:0 md:pr-4 mb-8">
                         <h2 className="text-xl font-semibold">Our Services</h2>
                         <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
                         <ul>
@@ -32,7 +32,7 @@ const Footer = () => {
                             <li className="mb-3 border-b border-dashed pb-2"><a href="#" className="font-light text-sm hover:text-indigo-400"><span className="font-bold text-indigo-400">-</span> Anxiety Consulting</a></li>
                         </ul>
                     </div>
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
+                    <div className="w-full sm:w-1/2 md:w-1/4 pr:0 md:pr-4 mb-8">
                         <h2 className="text-xl font-semibold">Our Time Schedule</h2>
                         <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
                         <ul>
@@ -46,7 +46,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
+                    <div className="w-full sm:w-1/2 md:w-1/4 pr:0 mb-8">
                         <div>
                             <h2 className="text-xl font-semibold">Newsletter</h2>
                         <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
@@ -66,6 +66,10 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <hr className="mt-10" />
+                <div className="mt-10">
+                    <p>Copyright © 2023. All rights reserved Doctor ACI</p>
                 </div>
             </div>
         </footer>

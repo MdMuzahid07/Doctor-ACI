@@ -77,29 +77,29 @@ const Navbar = (props) => {
 
                 {/* Nav Links (Mobile) */}
                 {isMobileNavOpen && (
-                    <div className="lg:hidden absolute top-20 right-7 rounded-2xl border drop-shadow-md bg-white px-10 py-10 h-96 w-80">
+                    <div className="lg:hidden absolute top-20 right-7 rounded border drop-shadow-sm bg-white px-5 py-10 h-96 w-80">
 
-                        <button onClick={() => handleMobileNav("home")} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("home")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
                             Home
                         </button>
 
-                        <button onClick={() => handleMobileNav("about")} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("about")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
                             About Me
                         </button>
 
-                        <button onClick={() => handleMobileNav("service")} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("service")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
                             Services
                         </button>
 
-                        <button onClick={() => handleMobileNav("contact")} className=" bg-rose-200 rounded-lg px-5 py-2 text-center block w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("contact")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center block w-full text-gray-500 mb-2">
                             Contact
                         </button>
 
-                        <button onClick={() => handleMobileNav("blog")} className=" bg-rose-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("blog")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
                             Blog
                         </button>
 
-                        <div className="mt-5 flex justify-center">
+                        <div className="mt-5">
                             <AppointmentBtn />
                         </div>
                     </div>
