@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                     <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
                         <h2 className="text-xl font-semibold">Our Services</h2>
-                        <h2 className="text-xl font-semibold mb-4 border-b-4 border-indigo-400 w-10 mt-4"></h2>
+                        <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
                         <ul>
                             <li className="mb-3 border-b border-dashed pb-2"><a href="#" className="font-light text-sm hover:text-indigo-400"><span className="font-bold text-indigo-400">-</span> Depression Treatment</a></li>
                             <li className="mb-3 border-b border-dashed pb-2"><a href="#" className="font-light text-sm hover:text-indigo-400"><span className="font-bold text-indigo-400">-</span> Relationship Problems</a></li>
@@ -31,16 +31,21 @@ const Footer = () => {
                     </div>
                     <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
                         <h2 className="text-xl font-semibold">Our Time Schedule</h2>
-                        <h2 className="text-xl font-semibold mb-4 border-b-4 border-indigo-400 w-10 mt-4"></h2>
+                        <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
                         <ul>
-                            <li className="mb-2">Link 7</li>
-                            <li className="mb-2">Link 8</li>
-                            <li className="mb-2">Link 9</li>
+                            <li className="mb-4">
+                                <p className="mb-3 font-semibold">Monday - Friday</p>
+                                <p><small className="text-indigo-400">08:00AM - 05:00PM</small></p>
+                            </li>
+                            <li>
+                                <p className="mb-3 font-semibold">Saturday - Sunday</p>
+                                <p><small className="text-indigo-400">09:00AM - 04:00PM</small></p>
+                            </li>
                         </ul>
                     </div>
                     <div className="w-full sm:w-1/2 md:w-1/4 px-4 mb-8">
                         <h2 className="text-xl font-semibold">Newsletter</h2>
-                        <h2 className="text-xl font-semibold mb-4 border-b-4 border-indigo-400 w-10 mt-4"></h2>
+                        <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
                         <ul>
                             <li className="mb-2">Link 10</li>
                             <li className="mb-2">Link 11</li>
