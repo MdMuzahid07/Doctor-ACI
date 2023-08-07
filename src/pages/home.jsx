@@ -5,15 +5,22 @@ import LatestArticles from "../components/home/latest-news/latest-articles"
 import Services from "../components/home/services/services"
 import WorkingProcess from "../components/home/working-process/working-process"
 
-const Home = () => {
+const Home = (props) => {
+    const {
+        header,
+        aboutMe,
+        getAnAppointment,
+        whatPatientSays,
+        getInTouch
+    } = props;
     return (
         <main className="overflow-hidden">
-            <Header />
-            <AboutMe />
+            <Header header={header} />
+            <AboutMe aboutMe={aboutMe} />
             <WorkingProcess />
-            <MakeAppointment />
-            <Services />
-            <LatestArticles />
+            <MakeAppointment getInTouch={getInTouch} />
+            <Services getAnAppointment={getAnAppointment} />
+            <LatestArticles whatPatientSays={whatPatientSays} />
         </main>
     )
 }

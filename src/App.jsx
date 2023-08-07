@@ -40,6 +40,7 @@ function App() {
     }
   };
 
+
   return (
     <>
       <Navbar
@@ -52,6 +53,9 @@ function App() {
       <Home
         header={header}
         aboutMe={aboutMe}
+        getAnAppointment={getAnAppointment}
+        whatPatientSays={whatPatientSays}
+        getInTouch={getInTouch}
       />
       <Footer />
     </>

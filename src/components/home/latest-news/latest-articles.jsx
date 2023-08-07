@@ -2,9 +2,9 @@ import { MdKeyboardArrowRight } from 'react-icons/md';
 import { SlCalender } from 'react-icons/sl';
 
 
-const LatestArticles = () => {
+const LatestArticles = ({ whatPatientSays }) => {
     return (
-        <section className="max-w-screen-lg mx-auto px-5 md:px-0 pb-32 relative">
+        <section ref={whatPatientSays} className="max-w-screen-lg mx-auto px-5 md:px-0 pb-32 relative">
             <h2 className="text-xl text-center mb-7 font-bold text-orange-500">Latest Articles</h2>
             <h1 className="text-4xl text-center font-bold text-indigo-900 ">
                 My Latest Articles

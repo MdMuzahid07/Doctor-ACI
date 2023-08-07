@@ -79,27 +79,27 @@ const Navbar = (props) => {
                 {isMobileNavOpen && (
                     <div className="lg:hidden absolute top-20 right-7 rounded border drop-shadow-sm bg-white px-5 py-10 h-96 w-80">
 
-                        <button onClick={() => handleMobileNav("home")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("home")} className="text-lg font-bold text-indigo-900 border-b-2 py-3 block w-full text-left">
                             Home
                         </button>
 
-                        <button onClick={() => handleMobileNav("about")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("about")} className="text-lg font-bold text-indigo-900 border-b-2 py-3 block w-full text-left">
                             About Me
                         </button>
 
-                        <button onClick={() => handleMobileNav("service")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("service")} className="text-lg font-bold text-indigo-900 border-b-2 py-3 block w-full text-left">
                             Services
                         </button>
 
-                        <button onClick={() => handleMobileNav("contact")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center block w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("contact")} className=" text-lg font-bold text-indigo-900 border-b-2 py-3 block w-full text-left">
                             Contact
                         </button>
 
-                        <button onClick={() => handleMobileNav("blog")} className=" bg-indigo-200 rounded-lg px-5 py-2 text-center w-full text-gray-500 mb-2">
+                        <button onClick={() => handleMobileNav("blog")} className="text-lg font-bold text-indigo-900 border-b-2 py-3 block w-full text-left">
                             Blog
                         </button>
 
-                        <div className="mt-5">
+                        <div className="mt-3">
                             <AppointmentBtn />
                         </div>
                     </div>

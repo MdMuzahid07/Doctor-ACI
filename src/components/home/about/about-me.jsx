@@ -1,8 +1,8 @@
 
-const AboutMe = () => {
+const AboutMe = ({ aboutMe }) => {
     return (
         <section>
-            <div className="max-w-screen-lg mx-auto py-24 md:py-44 px-5 md:px-0">
+            <div ref={aboutMe} className="max-w-screen-lg mx-auto py-24 md:py-44 px-5 md:px-0">
                 <div className="grid md:grid-cols-2 gap-10">
                     <div className="grid grid-cols-2 gap-10 relative">
 
