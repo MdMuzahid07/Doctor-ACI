@@ -51,7 +51,7 @@ const Footer = () => {
                             <h2 className="text-xl font-semibold">Newsletter</h2>
                         <h2 className="text-xl font-semibold mb-4 border-b-2 border-indigo-400 w-10 mt-4"></h2>
                             <div className="relative">
-                                <input type="email" className="border-b focus:border-indigo-400 focus:outline-none mt-5 pb-2 bg-slate-50 w-full" placeholder="Email Address" />
+                                <input type="email" className="border-b focus:border-indigo-400 focus:outline-none mt-5 pb-2  w-full" placeholder="Email Address" />
                                 <button className="absolute right-2 bottom-3"><GrSend /></button>
                             </div>
                         </div>

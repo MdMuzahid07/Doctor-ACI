@@ -14,7 +14,7 @@ const Header = () => {
                         <h1 className="text-6xl font-bold text-indigo-900 mt-16">
                             Protect Your Health And Take Care To Of Your Health
                         </h1>
-                        <button className="mt-10 px-7 text-white font-bold py-3 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-lg">Read more</button>
+                        <button className="mt-10 px-7 text-white font-bold py-3 bg-gradient-to-r from-orange-500 to-blue-500 rounded-lg">Read more</button>
 
                         <div className="absolute animated-logo right-20  -bottom-20">
                             <img src="../../../../public/assets/icons/icons-5.png" alt="" />
@@ -30,7 +30,7 @@ const Header = () => {
                         </div>
 
 
-                        <img className="w-full h-96 border-2 bg-indigo-500 rounded-full object-cover object-top" src="../../../../public/assets/images/men-doctor.png" alt="" />
+                        <img className="w-full h-96 border-2 bg-indigo-500 object-cover object-top" src="../../../../public/assets/images/men-doctor.png" alt="" />
 
                         <div className="absolute -right-10 animated-logo  -bottom-7">
                             <img src="../../../../public/assets/icons/icon-1.png" alt="" />
