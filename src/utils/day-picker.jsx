@@ -12,7 +12,7 @@ const DayPickerFunction = () => {
     }
 
     return (
-        <section className="p-5 bg-white shadow-custom rounded-3xl">
+        <section className="p-5 bg-white shadow-custom rounded-2xl">
             <h1 className="text-xl ml-5 mb-3 font-bold text-indigo-900 ">
                 Book Appointment
             </h1>
