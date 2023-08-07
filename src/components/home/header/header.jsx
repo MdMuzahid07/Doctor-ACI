@@ -1,27 +1,9 @@
 
 const Header = () => {
     return (
-        <section>
+        <section className="bg-cover bg-top bg-[url('../../../public/assets/footer/wave-header.png')]">
             <div className="max-w-screen-xl mx-auto py-20 md:py-32">
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
-                lorem5000
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ratione commodi molestias, quis voluptas corporis cumque facilis, eaque sint laboriosam tempora exercitationem eius. Minima optio voluptas ipsa vero incidunt nemo officia rerum quibusdam natus nulla soluta repellat impedit id distinctio velit iusto sed ipsum obcaecati, explicabo quisquam nisi maxime? Ab molestias alias explicabo sequi eius error exercitationem ut soluta quas maxime nobis consectetur corporis nam ducimus minus non ipsa veritatis porro, quidem, fugit impedit natus asperiores? Voluptatem, dicta ut ipsa deserunt dignissimos quisquam unde. Numquam eaque a molestiae laboriosam nesciunt aliquam neque excepturi quia nisi, necessitatibus id, nostrum modi adipisci dicta voluptatum quo dolorum, esse harum consectetur natus ea. Sit assumenda, placeat asperiores adipisci numquam recusandae modi molestias maxime perspiciatis id necessitatibus voluptas doloremque blanditiis nostrum consequatur quaerat dolore sint. Assumenda sapiente ab, voluptas corrupti cum dignissimos quas corporis voluptatum odit obcaecati provident incidunt asperiores debitis rem libero tempore. Facilis eos labore hic debitis tempora rem amet dignissimos aliquid, nam ipsam excepturi neque repudiandae alias. Magnam laborum aliquid eos fugiat necessitatibus qui nulla omnis. Unde inventore doloribus ipsam quibusdam, repellat ad modi, veniam quae velit odit nisi, aut eligendi suscipit ducimus similique sit illum. Expedita nemo accusantium cupiditate, fugit reprehenderit doloribus est consequuntur similique alias saepe iure quam sunt. Eius amet officia voluptate incidunt, autem fugiat in veritatis assumenda, expedita tempora cum illum consectetur quisquam aliquid nulla ea maiores veniam doloribus tenetur totam eveniet labore cupiditate velit. Consequuntur, sed rerum hic odit accusamus a incidunt sint nihil adipisci veniam voluptatum, at cum quas itaque quia sit quae aperiam aliquid. Ex provident itaque incidunt soluta alias aperiam omnis vel distinctio, dolore et quo. Id mollitia quod fuga porro praesentium provident ad exercitationem aperiam culpa nobis aliquam cumque obcaecati aspernatur temporibus, a minus ratione sapiente, aliquid illo. Quo facilis, temporibus incidunt officia omnis odit animi et velit fugiat vero maxime fuga rerum, quibusdam natus mollitia similique, totam laboriosam voluptate aliquid laborum atque. Voluptatum officia tenetur excepturi eligendi consequuntur debitis illo hic velit, rerum aut sunt cupiditate, ipsam itaque ipsa reiciendis voluptatibus, corrupti mollitia. Iusto sit blanditiis animi quibusdam ratione, quaerat eos praesentium nemo vel eligendi quis debitis. Et, nisi nobis. Nisi praesentium expedita impedit nesciunt tempora commodi qui facilis enim atque asperiores, saepe et iusto maiores, laboriosam, nobis sequi blanditiis ipsa. Suscipit fuga cupiditate ullam odio sapiente modi, nemo provident tempore natus architecto dolorum ipsa exercitationem alias dolore inventore eveniet, aliquid ab dignissimos voluptate accusantium vitae distinctio. Id, autem facere laborum accusamus recusandae quibusdam vel animi consectetur eaque sint, natus quod aliquid veniam. Perferendis laudantium iure est debitis eveniet, quidem enim. Veniam doloremque autem ad quod nemo minima accusantium unde deleniti dolores praesentium, commodi nostrum ex, dignissimos libero itaque? Molestias officiis perspiciatis animi, ratione ad aspernatur distinctio in magnam omnis facilis quae aliquam fugit error neque quisquam minus, quaerat consequatur consectetur vel commodi necessitatibus. Esse perspiciatis sapiente magni magnam laudantium ducimus, error iste nisi eius nulla consequuntur sunt voluptate illum, doloribus aliquam recusandae. Illo totam ex, quaerat in consequuntur necessitatibus consequatur. Neque.
             </div>
         </section>
     )
