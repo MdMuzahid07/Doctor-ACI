@@ -1,5 +1,6 @@
 import AboutMe from "../components/home/about/about-me"
 import MakeAppointment from "../components/home/appintment/make-appointment"
+import Contact from "../components/home/contact/contact"
 import Header from "../components/home/header/header"
 import LatestArticles from "../components/home/latest-news/latest-articles"
 import Services from "../components/home/services/services"
@@ -18,8 +19,9 @@ const Home = (props) => {
             <Header header={header} />
             <AboutMe aboutMe={aboutMe} />
             <WorkingProcess />
-            <MakeAppointment getInTouch={getInTouch} />
+            <MakeAppointment />
             <Services getAnAppointment={getAnAppointment} />
+            <Contact getInTouch={getInTouch} />
             <LatestArticles whatPatientSays={whatPatientSays} />
         </main>
     )
