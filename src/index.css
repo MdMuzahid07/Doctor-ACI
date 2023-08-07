@@ -13,3 +13,33 @@
   background-size: cover;
   background-color: red;
 }
+.animated-logo {
+  animation: logos 4s ease 0s infinite normal forwards;
+}
+
+
+@keyframes logos {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
