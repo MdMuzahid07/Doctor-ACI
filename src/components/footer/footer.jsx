@@ -4,7 +4,19 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 const Footer = () => {
     return (
         <footer className="bg-white bg-cover bg-bottom bg-[url('../../../public/assets/footer/wave.png')]">
-            <div className="max-w-screen-xl mx-auto px-5 md:px-0 pt-24 pb-14">
+            <div className="max-w-screen-xl mx-auto px-5 md:px-0 pt-24 pb-14 relative">
+                {/* icon */}
+                <div className="absolute top-32 -left-48 animated-logo">
+                    <img src="../../../../public/assets/icons/icons-12.png" alt="" />
+                </div>
+                {/* icon */}
+
+                {/* icon */}
+                <div className="absolute top-10 -right-32 animated-logo">
+                    <img src="../../../../public/assets/icons/icons-13.png" alt="" />
+                </div>
+                {/* icon */}
+
                 <div className="container mx-auto flex flex-wrap justify-between">
                     <div className="w-full sm:w-1/2 md:w-1/4 pr:0 md:pr-4 mb-8">
                         <div className="mb-6">
@@ -67,6 +79,13 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* icon */}
+                <div className="absolute bottom-20 right-48 animated-logo">
+                    <img src="../../../../public/assets/icons/icons-14.png" alt="" />
+                </div>
+                {/* icon */}
+
                 <hr className="mt-10" />
                 <div className="mt-10 px-5 md:px-0">
                     <p>Copyright © 2023. All rights reserved Doctor ACI</p>

@@ -44,7 +44,7 @@ const MakeAppointment = () => {
                         {/* icon */}
 
                         {/* icon */}
-                        <div className="absolute bottom-32 left-5 animated-logo">
+                        <div className="absolute bottom-20 md:bottom-32 left-5 animated-logo">
                             <img src="../../../../public/assets/icons/icons-11.png" alt="" />
                         </div>
                         {/* icon */}
