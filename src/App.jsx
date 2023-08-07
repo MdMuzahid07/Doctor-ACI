@@ -49,7 +49,10 @@ function App() {
         scrollToReview={scrollToReview}
         scrollToContact={scrollToContact}
       />
-      <Home />
+      <Home
+        header={header}
+        aboutMe={aboutMe}
+      />
       <Footer />
     </>
   )

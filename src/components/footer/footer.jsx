@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 
 const Footer = () => {
     return (
-        <footer className="bg-white bg-cover bg-bottom bg-[url('../../../public/assets/footer/wave.png')]">
+        <footer className="bg-white bg-cover bg-bottom bg-[url('../../../public/assets/footer/wave.png')] overflow-hidden">
             <div className="max-w-screen-xl mx-auto px-5 md:px-0 pt-24 pb-14 relative">
                 {/* icon */}
                 <div className="absolute top-32 -left-48 animated-logo">
