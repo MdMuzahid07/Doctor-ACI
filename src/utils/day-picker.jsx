@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
 
-const dayPicker = () => {
+const DayPickerFunction = () => {
     const [selected, setSelected] = useState(null);
 
     let footer = <p>Please pick a day.</p>;
@@ -12,7 +12,10 @@ const dayPicker = () => {
     }
 
     return (
-        <section className="p-5 bg-white rounded-lg">
+        <section className="p-5 bg-white shadow-custom rounded-3xl">
+            <h1 className="text-xl ml-5 mb-3 font-bold text-indigo-900 ">
+                Book Appointment
+            </h1>
             <DayPicker
                 mode="single"
                 selected={selected}
@@ -23,4 +26,4 @@ const dayPicker = () => {
     );
 }
 
-export default dayPicker
+export default DayPickerFunction;

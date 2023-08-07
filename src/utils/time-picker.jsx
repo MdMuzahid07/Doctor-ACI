@@ -18,7 +18,7 @@ const TimePicker = () => {
     };
 
     return (
-        <section className="flex items-center justify-center p-5 rounded-lg bg-white mt-10">
+        <section className="p-5 rounded-xl bg-white shadow-custom mt-10">
             <select
                 value={hours}
                 onChange={handleHourChange}
