@@ -68,7 +68,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className="mt-10" />
-                <div className="mt-10">
+                <div className="mt-10 px-5 md:px-0">
                     <p>Copyright © 2023. All rights reserved Doctor ACI</p>
                 </div>
             </div>
