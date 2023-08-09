@@ -1,5 +1,5 @@
-import DayPickerFunction from "../../../utils/day-picker";
-import TimePicker from "../../../utils/time-picker";
+import ClientInfoForm from "./clientInfoForm";
+import SelectHospital from "./selectHospital";
 
 const MakeAppointment = ({ getInTouch }) => {
     return (
@@ -12,8 +12,20 @@ const MakeAppointment = ({ getInTouch }) => {
                     </div>
                     {/* icon */}
 
-                    <DayPickerFunction />
-                    <TimePicker />
+                    {/* <DayPickerFunction />
+                    <TimePicker /> */}
+
+
+                    {/* get appoint form, step 1 */}
+
+                    <div className="bg-white p-5 md:px-5 md:py-10 rounded-2xl shadow-custom h-full w-full">
+                        <h2 className="text-2xl md:text-3xl font-bold text-indigo-900 mb-5">Appointment</h2>
+                        {/* <ClientInfoForm /> */}
+                        <SelectHospital />
+                    </div>
+
+
+                    {/* get appoint form, step 1 */}
 
 
                     {/* icon */}
