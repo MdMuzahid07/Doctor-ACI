@@ -14,15 +14,18 @@ const SelectHowDidYouFindUs = () => {
                 onChange={handleSelectChange}
                 className="bg-white border-2 px-3 py-2 w-full focus:outline-none"
             >
-                <option value="" disabled>Select an option</option>
-                <option value="i dont know.">
-                    i dont know
+                <option value="" disabled>How Did You Find</option>
+                <option value="by-website">
+                    by website
                 </option>
-                <option value="i dont know.">
-                    i dont know
+                <option value="by-advancement">
+                    by advancement
                 </option>
-                <option value="i dont know.">
-                    i dont know
+                <option value="old-patient">
+                    Im your old patient
+                </option>
+                <option value="others">
+                    others
                 </option>
             </select>
             <div className="absolute right-2 top-2 pointer-events-none">
