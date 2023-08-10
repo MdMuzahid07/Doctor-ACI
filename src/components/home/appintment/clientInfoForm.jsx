@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form"
 
-const ClientInfoForm = () => {
+const ClientInfoForm = ({ handleBtn }) => {
     const {
         register,
         handleSubmit,
@@ -25,7 +25,7 @@ const ClientInfoForm = () => {
 
                 <textarea className="px-3 py-2 border border-dark focus:outline-none focus:border-indigo-600 drop-shadow-sm hover:drop-shadow-md rounded-lg w-full" {...register("describe-yourself")} name="" id="" cols="" rows="4" type="text" placeholder="describe yourself(Optional)" />
 
-                <input className="px-5 border-2 py-2 hover:bg-white hover:border-2 hover:border-indigo-500 bg-indigo-500 rounded-lg hover:text-indigo-900 text-white font-bold mt-7" value="Next" type="submit" />
+                <input onClick={() => handleBtn("clickToSelectHospital")} className="px-5 border-2 py-2 hover:bg-white hover:border-2 hover:border-indigo-500 bg-indigo-500 rounded-lg hover:text-indigo-900 text-white font-bold mt-7" value="Next" type="submit" />
             </form>
         </section>
     )

@@ -1,7 +1,25 @@
+import { useState } from "react";
 import ClientInfoForm from "./clientInfoForm";
+import SelectAppointmentDateAndSlot from "./selectAppointmentDateAndSlot";
 import SelectHospital from "./selectHospital";
 
 const MakeAppointment = ({ getInTouch }) => {
+    const [isClientInput, setIsClientInput] = useState(true);
+    const [isSelectHospital, setIsSelectHospital] = useState(false);
+    const [isSlotSelected, setIsSlotSelected] = useState(false);
+
+    const handleBtn = (value) => {
+        if (value == "clickToSelectHospital") {
+            setIsClientInput(false);
+            setIsSelectHospital(true);
+        } else if (value == "selectSlot") {
+            setIsClientInput(false);
+            setIsSelectHospital(false);
+            setIsSlotSelected(true)
+        }
+    };
+
+
     return (
         <section ref={getInTouch} className="max-w-screen-lg mx-auto px-5 md:px-0 pb-20 relative py-28 md:py-36">
             <div className="grid md:grid-cols-7 gap-10 mt-10">
@@ -20,8 +38,15 @@ const MakeAppointment = ({ getInTouch }) => {
 
                     <div className="bg-white p-5 md:px-5 md:py-10 rounded-2xl shadow-custom h-full w-full">
                         <h2 className="text-2xl md:text-3xl font-bold text-indigo-900 mb-5">Appointment</h2>
-                        {/* <ClientInfoForm /> */}
-                        <SelectHospital />
+                        {
+                            isClientInput && <ClientInfoForm handleBtn={handleBtn} />
+                        }
+                        {
+                            isSelectHospital && <SelectHospital handleBtn={handleBtn} />
+                        }
+                        {
+                            isSlotSelected && <SelectAppointmentDateAndSlot />
+                        }
                     </div>
 
 
