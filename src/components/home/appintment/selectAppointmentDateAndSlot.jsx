@@ -1,5 +1,10 @@
 
 const SelectAppointmentDateAndSlot = () => {
+
+  const handleAppointmentRequest = () => {
+    window.alert("its not functional, undergoing Development");
+  };
+
   return (
     <section>
       <p className="font-semibold mt-7">August</p>
@@ -110,7 +115,7 @@ const SelectAppointmentDateAndSlot = () => {
       </div>
 
 
-      <button className="px-5 border-2 py-2 hover:bg-white hover:border-2 hover:border-indigo-500 bg-indigo-500 rounded-lg hover:text-indigo-900 text-white font-bold mt-7">Request Appointment</button>
+      <button onClick={handleAppointmentRequest} className="px-5 border-2 py-2 hover:bg-white hover:border-2 hover:border-indigo-500 bg-indigo-500 rounded-lg hover:text-indigo-900 text-white font-bold mt-7">Request Appointment</button>
     </section>
   )
 }
