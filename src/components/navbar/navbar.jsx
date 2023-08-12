@@ -100,7 +100,7 @@ const Navbar = (props) => {
                         </button>
 
                         <div className="mt-3">
-                            <AppointmentBtn scrollToAppointment={scrollToAppointment} />
+                            <AppointmentBtn setIsMobileNavOpen={setIsMobileNavOpen} scrollToAppointment={scrollToAppointment} />
                         </div>
                     </div>
                 )}

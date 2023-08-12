@@ -9,7 +9,7 @@ const SelectAppointmentDateAndSlot = () => {
     <section>
       <p className="font-semibold mt-7">August</p>
 
-      <div className="grid md:grid-cols-5 gap-3 mt-5">
+      <div className="flex items-center flex-wrap gap-3 mt-5">
 
         <button className="h-16 w-16 flex justify-center items-center border-2 border-indigo-400 hover:bg-indigo-500 hover:text-white bg-slate-100 rounded-lg">
           <div>
