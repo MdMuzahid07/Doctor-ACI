@@ -7,12 +7,19 @@ function App() {
   const header = useRef(null);
   const aboutMe = useRef(null);
   const getAnAppointment = useRef(null);
+  const services = useRef(null);
   const whatPatientSays = useRef(null);
   const getInTouch = useRef(null);
 
   const scrollToHeader = () => {
     if (header.current) {
       header.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToServices = () => {
+    if (services.current) {
+      services.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -49,6 +56,7 @@ function App() {
         scrollToAppointment={scrollToAppointment}
         scrollToReview={scrollToReview}
         scrollToContact={scrollToContact}
+        scrollToServices={scrollToServices}
       />
       <Home
         header={header}
@@ -56,6 +64,7 @@ function App() {
         getAnAppointment={getAnAppointment}
         whatPatientSays={whatPatientSays}
         getInTouch={getInTouch}
+        services={services}
       />
       <Footer />
     </>

@@ -12,15 +12,16 @@ const Home = (props) => {
         aboutMe,
         getAnAppointment,
         whatPatientSays,
-        getInTouch
+        getInTouch,
+        services
     } = props;
     return (
         <main className="overflow-hidden">
             <Header header={header} />
             <AboutMe aboutMe={aboutMe} />
             <WorkingProcess />
-            <MakeAppointment />
-            <Services getAnAppointment={getAnAppointment} />
+            <MakeAppointment getAnAppointment={getAnAppointment} />
+            <Services services={services} />
             <Contact getInTouch={getInTouch} />
             <LatestArticles whatPatientSays={whatPatientSays} />
         </main>

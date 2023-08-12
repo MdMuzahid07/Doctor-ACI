@@ -3,7 +3,7 @@ import ClientInfoForm from "./clientInfoForm";
 import SelectAppointmentDateAndSlot from "./selectAppointmentDateAndSlot";
 import SelectHospital from "./selectHospital";
 
-const MakeAppointment = ({ getInTouch }) => {
+const MakeAppointment = ({ getAnAppointment }) => {
     const [isClientInput, setIsClientInput] = useState(true);
     const [isSelectHospital, setIsSelectHospital] = useState(false);
     const [isSlotSelected, setIsSlotSelected] = useState(false);
@@ -21,7 +21,7 @@ const MakeAppointment = ({ getInTouch }) => {
 
 
     return (
-        <section ref={getInTouch} className="max-w-screen-lg mx-auto px-5 md:px-0 pb-20 relative py-28 md:py-36">
+        <section ref={getAnAppointment} className="max-w-screen-lg mx-auto px-5 md:px-0 pb-20 relative py-28 md:py-36">
             <div className="grid md:grid-cols-7 gap-10 mt-10">
                 <div className="md:col-span-3 relative">
                     {/* icon */}

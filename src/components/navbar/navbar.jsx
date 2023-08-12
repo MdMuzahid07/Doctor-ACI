@@ -4,7 +4,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 
 
 const Navbar = (props) => {
-    const { scrollToHeader, scrollToAbout, scrollToAppointment, scrollToDiseases, scrollToReview, scrollToContact } = props;
+    const { scrollToHeader, scrollToAbout, scrollToAppointment, scrollToDiseases, scrollToReview, scrollToContact, scrollToServices } = props;
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
     const toggleMobileNav = () => {
@@ -20,7 +20,7 @@ const Navbar = (props) => {
             scrollToAbout();
             setIsMobileNavOpen(false);
         } else if (where == "service") {
-            scrollToAppointment();
+            scrollToServices();
             setIsMobileNavOpen(false);
         } else if (where == "contact") {
             scrollToContact();
@@ -56,7 +56,7 @@ const Navbar = (props) => {
                     <button onClick={scrollToAbout} className="text-indigo-400 font-bold">
                         About Me
                     </button>
-                    <button onClick={scrollToAppointment} className="text-indigo-400 font-bold">
+                    <button onClick={scrollToServices} className="text-indigo-400 font-bold">
                         Services
                     </button>
                     <button onClick={scrollToContact} className="text-indigo-400 font-bold">
@@ -72,7 +72,7 @@ const Navbar = (props) => {
                 </div>
 
                 <div className="hidden lg:flex space-x-4">
-                    <AppointmentBtn />
+                    <AppointmentBtn scrollToAppointment={scrollToAppointment} />
                 </div>
 
                 {/* Nav Links (Mobile) */}
@@ -100,7 +100,7 @@ const Navbar = (props) => {
                         </button>
 
                         <div className="mt-3">
-                            <AppointmentBtn />
+                            <AppointmentBtn scrollToAppointment={scrollToAppointment} />
                         </div>
                     </div>
                 )}

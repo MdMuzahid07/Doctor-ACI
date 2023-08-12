@@ -1,9 +1,9 @@
 import AppointmentBtn from "../../btns/appointment-btn";
 import ServiceSlider from "./service-slider";
 
-const Services = ({ getAnAppointment }) => {
+const Services = ({ services }) => {
     return (
-        <section ref={getAnAppointment} className="max-w-screen-lg mx-auto relative py-28 md:py-36">
+        <section ref={services} className="max-w-screen-lg mx-auto relative py-28 md:py-36">
             <div className="md:grid md:grid-cols-7 gap-5 md:gap-10  px-5 md:px-0">
                 <div className="md:col-span-3 py-10 relative">
                     {/* icon */}
